@@ -1,0 +1,179 @@
+
+nav .navbar-brand>img {
+  /* max size for Alphahops brand logo */
+  max-width: 150px;
+}
+
+body {
+  min-height: 100vh;
+  /*font imported from google fonts*/
+  font-family: 'Bebas Neue', cursive;
+  padding: 5px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  font-family: 'Bebas Neue', cursive;
+  justify-content: center;
+  flex-direction:column;
+  text-align: center;
+  padding: 2px;
+}
+
+table {
+  font-family: 'Dosis', sans-serif;
+  color: #141414;
+  box-shadow: 0px 2px 0px #fddf1d;
+  max-width: 800px;
+  align-items: center;
+  text-align: center;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  padding: 10px;
+}
+
+.summer {
+  /*Summer Ale label image setup*/
+  max-width: 60%;
+  border-radius: 30px;
+  text-align: center;
+  margin: 5px;
+  box-shadow: 0px 10px 10px rgba(15, 15, 15, 0.5);
+}
+
+.copo {
+  /*Glass image setup*/
+  max-width: 30%;
+  border-radius: 30px;
+  text-align: center;
+  margin: 5px;
+  box-shadow: 0px 10px 10px rgba(15, 15, 15, 0.5);
+  padding: 10px;
+}
+
+.info {
+  /*main div for the beer information. white(light yellow) box*/
+  background: #fddf1d;
+  color: #000000;
+  opacity: 0.7;
+  box-shadow: 0px 10px 10px rgba(15, 15, 15, 0.5);
+  padding: 10px;
+  margin-bottom: 5px;
+  font-weight: bold;
+  margin-top: 20px;
+  border-radius: 20px;
+}
+
+.infoTitulo {
+  /*main div for the beer information. white(light yellow) box*/
+  font-family: 'Dosis', sans-serif;
+  color: #7e7b7b;
+  box-shadow: 0px 2px 0px #fddf1d;
+  max-width: 800px;
+  align-items: center;
+  text-align: center;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  padding: 2px;
+}
+
+.infoPrecos {
+  /*main div for the beer information. white(light yellow) box*/
+  font-family: 'Dosis', sans-serif;
+  color: #7e7b7b;
+  max-width: 800px;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 20px;
+  padding: 2px;
+}
+
+.summerAle {
+  color: #000000;
+  padding: 20px;
+  font-weight: bold;
+  margin: auto;
+  text-align: center;
+ 
+}
+
+.kit {
+  background: #8B0000;
+  color: #f7f4f4;
+  box-shadow: 0px 10px 10px rgba(15, 15, 15, 0.5);
+  padding: 20px;
+  margin-bottom: 5px;
+  font-weight: bold;
+  margin-top: 20px;
+  border-radius: 20px;
+}
+
+h1 {
+  font-weight: bold;
+}
+
+/*Forumulário*/
+.form {
+  width: 100%;
+  max-width: 800px;
+  padding: 10px;
+}
+
+.form label,
+.form input,
+.form button {
+  display: flex;
+  width: 100%;
+  padding: 5px;
+  margin-top: 5px;
+}
+
+
+.form input {
+  font: inherit;
+  padding: 5px;
+  border: 1px solid transparent;
+  border-radius: 8px;
+  transition: border-color, box-shadow 0.2s;
+}
+
+.form input:hover,
+.form input:focus,
+.form textarea:hover,
+.form textarea:focus {
+  outline: none;
+  border-color: #09d;
+  box-shadow: 0 0 0 3px #4dc8ff;
+}
+
+.form button {
+  display: block;
+  padding: 5px;
+  margin-top: 10px;
+  background: #0072c4;
+  color: #fff;
+  font: inherit;
+  text-transform: uppercase;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.form button:hover,
+.form button:focus {
+  outline: none;
+  background: #09d;
+}
+
+footer {
+  text-align: center;
+  color:#8B0000; 
+  font-weight: bold; 
+  padding: 20px;
+}
